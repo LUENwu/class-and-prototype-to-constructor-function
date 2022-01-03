@@ -23,7 +23,7 @@ function Person(name,age){
   this.name=name
   this.age=age
 }
-Person.prototype.sayHI=function(){
+Person.prototype.sayHi=function(){
   return console.log('你好,我叫' + this.name)
 }
 let person = new Person('frank', 18)
